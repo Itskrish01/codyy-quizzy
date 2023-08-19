@@ -13,7 +13,7 @@ const HtmlQuiz = () => {
     const [isSelected, setIsSelected] = useState<boolean>(false)
     const [isCorrect, setIsCorrect] = useState<boolean>(false)
     const [isCompleted, setIsCompleted] = useState<boolean>(false)
-    const [selectedOption, setSelectedOption] = useState<number>()
+    const [selectedOption, setSelectedOption] = useState<number | undefined>()
     const [score, setScore] = useState<number>(0);
     const expiryTimestamp = new Date();
     expiryTimestamp.setSeconds(expiryTimestamp.getSeconds() + 600);
@@ -114,7 +114,7 @@ const HtmlQuiz = () => {
                                         isCorrect={isCorrect}
                                         selectedOption={selectedOption}
                                         isSelected={isSelected}
-                                        setSelectedOption={isSelected ? null : () => handleOptionSelection(option.id)}
+                                        setSelectedOption={isSelected ? () => { } : () => handleOptionSelection(option.id)}
                                         setIsSelected={setIsSelected}
                                         correct_answer={activeQuestion.correct_option}
                                     />

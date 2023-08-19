@@ -6,9 +6,9 @@ interface Props {
     isCorrect: boolean;
     option: string;
     isSelected: boolean;
-    selectedOption: number;
+    selectedOption: number | undefined;
     setIsSelected: React.Dispatch<React.SetStateAction<boolean>>;
-    setSelectedOption: () => void;
+    setSelectedOption: (id: number) => void;
     id: number;
     correct_answer: number
 }

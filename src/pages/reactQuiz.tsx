@@ -112,7 +112,7 @@ const ReactQuiz = () => {
                                         isCorrect={isCorrect}
                                         selectedOption={selectedOption}
                                         isSelected={isSelected}
-                                        setSelectedOption={isSelected ? null : () => handleOptionSelection(option.id)}
+                                        setSelectedOption={isSelected ? () => { } : () => handleOptionSelection(option.id)}
                                         setIsSelected={setIsSelected}
                                         correct_answer={activeQuestion.correct_option}
                                     />
