@@ -104,6 +104,7 @@ const ReactQuiz = () => {
                                     animate={{ opacity: 1, x: 0, transition: { ease: 'easeOut', delay: 0.6 } }}
                                     exit={{ opacity: 0, x: -100, transition: { ease: 'easeIn', delay: 0.2 } }}
                                     transition={{ duration: 0.4 }}>
+
                                     <Option
                                         id={option.id}
                                         optionText={option.text}
