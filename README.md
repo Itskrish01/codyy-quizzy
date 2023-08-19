@@ -15,7 +15,7 @@ Welcome to the Quiz App project! This is a web application built using React and
 
 ## Demo
 
-Before diving into the code, you can check out a live demo of the Quiz App here: [Insert Link to Demo Here](#insert-link-to-demo-here).
+Before diving into the code, you can check out a live demo of the Quiz App here: [Demo](https://itskrish01-coddy-quzzy.netlify.app/).
 
 ## Features
 
