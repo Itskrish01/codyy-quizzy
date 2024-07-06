@@ -10,14 +10,14 @@ const JavaScriptQuestions = [
     correct_option: 2,
   },
   {
-    question: "Which keyword is used to declare a variable in JavaScript?",
+    question: "Which keyword is not used to declare a variable in JavaScript?",
     options: [
       { id: 6, text: "let" },
       { id: 5, text: "print" },
       { id: 7, text: "var" },
       { id: 8, text: "const" },
     ],
-    correct_option: 6,
+    correct_option: 5,
   },
   {
     question: "What is the result of 2 + '2' in JavaScript?",
