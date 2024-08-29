@@ -70,7 +70,7 @@ const ReactQuiz = () => {
 
 
     if (isCompleted) {
-        return <ScoreScreen total_marks={ReactQuestions.length * 10} earned_marks={score} testType='html' setReset={handleReset} />
+        return <ScoreScreen total_marks={ReactQuestions.length * 10} earned_marks={score} testType='react' setReset={handleReset} />
     }
 
     return (
