@@ -70,7 +70,7 @@ const JavascriptQuiz = () => {
 
 
     if (isCompleted) {
-        return <ScoreScreen total_marks={JavaScriptQuestions.length * 10} earned_marks={score} testType='html' setReset={handleReset} />
+        return <ScoreScreen total_marks={JavaScriptQuestions.length * 10} earned_marks={score} testType='javascript' setReset={handleReset} />
     }
 
     return (
